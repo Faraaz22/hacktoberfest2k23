@@ -1,0 +1,59 @@
+*{
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.Container{
+    position: fixed;
+    background-color: rgb(224, 232, 232);
+    height: 500px;
+    width: 500px;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 4px outset rgb(177, 132, 132);
+
+}
+.h1{
+    position: relative;
+    left: 25%;
+    top:20%;
+    color: blueviolet;
+}
+.urlBox{
+    position: fixed;
+    left:40%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    
+}
+#shorten{
+    position: fixed;
+    width:75px;
+    margin-left: 5px;
+    height:30px;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+    
+}
+#url2{
+    margin-bottom: 10px;
+}
+#longer{
+    margin-bottom: 30px;
+}
+#copy{
+    position: fixed;
+    width:75px;
+    margin-left: 5px;
+    height:30px;
+    box-shadow: 0 3px #999;
+    cursor: pointer;
+}
+.textBox{
+    width:250px;
+    height: 30px;
+}
